@@ -1,0 +1,34 @@
+    double magnitude{};
+    string descriptor{};
+
+    cout << "Enter the magnitude to get the corresponding descriptor: ";
+    cin >> magnitude;
+
+    if (magnitude < 2.0) {
+      descriptor = "Micro";
+    }else if ((3.0 > magnitude) && (magnitude >= 2.0)) {
+      descriptor = "Very Minor";
+    }
+    else if ((4.0 > magnitude) && (magnitude >= 3.0)) {
+      descriptor = "Minor";
+    }
+    else if ((5.0 > magnitude) && (magnitude >= 4.0)) {
+      descriptor = "Light";
+    }
+    else if ((6.0 > magnitude) && (magnitude >= 5.0)) {
+      descriptor = "Moderate";
+    }
+    else if ((7.0 > magnitude) && (magnitude >= 6.0)) {
+      descriptor = "Strong";
+    }
+    else if ((8.0 > magnitude) && (magnitude >= 7.0)) {
+      descriptor = "Major";
+    }
+    else if ((10.0 > magnitude) && (magnitude >= 8.0)) {
+      descriptor = "Great";
+    }
+    else {
+      descriptor = "Meteoric";
+    }
+
+    cout <<"A mangnitude "<< magnitude << " earthquake is considered to be " << descriptor << " earthquake";
