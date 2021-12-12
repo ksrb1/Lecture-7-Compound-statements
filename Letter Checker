@@ -1,0 +1,14 @@
+char letter{};
+
+	cout << "Input a letter to check if its a vowel or consonant in lower case" << endl;
+	cin >> letter;
+
+	if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
+	    cout << "The letter is a vowel" << endl;
+	}
+	else if (letter >= 'a' && letter <= 'z'){
+	    cout << "The letter is a consonant" << endl;
+	}
+	else {
+	    cout << "this is not a letter";
+	}
