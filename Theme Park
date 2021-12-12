@@ -1,0 +1,15 @@
+int age{};
+   int height{};
+
+   cout << "age?" << endl;
+   cin >> age;
+   cout << "height in meteres?" << endl;
+   cin >> height;
+
+   if ((age >= 5) && (height < 0.6)) {
+       cout << "Go ahead" << endl;
+       return 0;
+   }
+   else {
+       cout << "Sorry you don't reach the required expectation";
+   }
