@@ -1,0 +1,12 @@
+string capital;
+
+    cout << "what is the capital of France?" << endl;
+    cin >> capital;
+
+    if ((capital == "paris") || (capital == "Paris")) {
+        cout << "nice you got it correct" << endl;
+
+    }
+    else {
+        cout << "You got the wrong answer" << endl;
+    }
