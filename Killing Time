@@ -1,0 +1,23 @@
+    int minTillArival{};
+    int pocketChange{};
+
+    cout << "Oh hey, how much longer till you arrive?" << endl;
+
+    cin >> minTillArival;
+
+    if (minTillArival >= 15) {
+      cout << "Might as well kill some time, how much money do i have on me?" << endl;
+      cin >> pocketChange;
+
+      if (pocketChange > 5) {
+        cout << "Nice! I'll go and buy some coffee with this";
+
+      }
+      else {
+        cout << "Aww, I'll just go for a stroll around town";
+      }
+
+    }
+    else {
+      cout << " Oh guess I'll just wait for you then";
+    }
